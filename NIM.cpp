@@ -1,34 +1,35 @@
-//NIM dabs október 1997
+//NIM dabs oktï¿½ber 1997
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 
 using namespace std;
-
-//Þetta fall á að birta stöðu allra eldspýtnahrúgna (hrúgur í fleirtölu eignarfalli)
+// fÃ¦ ekki drasliÃ° til aÃ° git push origin master eÃ°a til aÃ° git commit -a -m "My first git commit"  fÃ¦ alltaf upp finn ekki Ãºt Ãºr Ã¾essu  fatal: Not a git repository (or any of the parent directories): .git   einhver lausn Ã¡ Ã¾essu 
+// HeiÃ°ar Freyr Steinunnarson 
+//ï¿½etta fall ï¿½ aï¿½ birta stï¿½ï¿½u allra eldspï¿½tnahrï¿½gna (hrï¿½gur ï¿½ fleirtï¿½lu eignarfalli)
 void birta( int* hruga );
 
-//Þetta fall á að reikna út hversu margar eldspýtur eru eftir í hrúgunum:
+//ï¿½etta fall ï¿½ aï¿½ reikna ï¿½t hversu margar eldspï¿½tur eru eftir ï¿½ hrï¿½gunum:
 int samtals( int* hruga );
 
-//Þetta fall lætur tölvuna gera:
+//ï¿½etta fall lï¿½tur tï¿½lvuna gera:
 void tolva( int* hruga );
 
-//Þetta fall lætur notandann gera:
+//ï¿½etta fall lï¿½tur notandann gera:
 void notandi( int* hruga );
 
-//Þetta fall birtir reglurnar í spilinu:
+//ï¿½etta fall birtir reglurnar ï¿½ spilinu:
 void hjalp( );
 
-//Þetta fall spilar spilið:
+//ï¿½etta fall spilar spiliï¿½:
 void spila( );
 
-//Ég leyfi mér að nota eina víðværa breytu af því að forritið notar alltaf
-//mismargar hrúgur í hvert og eitt skipti:
+//ï¿½g leyfi mï¿½r aï¿½ nota eina vï¿½ï¿½vï¿½ra breytu af ï¿½vï¿½ aï¿½ forritiï¿½ notar alltaf
+//mismargar hrï¿½gur ï¿½ hvert og eitt skipti:
 int hrugufjoldi;
 
-//Hér byrjar aðalforritið:
+//Hï¿½r byrjar aï¿½alforritiï¿½:
 int main( )
 {
 	int val;
