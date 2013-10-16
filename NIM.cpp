@@ -55,7 +55,7 @@ int main( )
 		}
 	}
 	while ( val != 3 );
-
+	cout << "Heiðar Freyr Steinunnarson \n ";
 	return 0;
 }
 
